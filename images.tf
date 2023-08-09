@@ -1,6 +1,6 @@
 resource "openstack_images_image_v2" "focal" {
   name             = "ubuntu-focal-x86_64"
-  image_source_url = "https://cloud-images.ubuntu.com/focal/20230711/focal-server-cloudimg-amd64.img"
+  image_source_url = "https://cloud-images.ubuntu.com/focal/20230731/focal-server-cloudimg-amd64.img"
   container_format = "bare"
   disk_format      = "qcow2"
 
